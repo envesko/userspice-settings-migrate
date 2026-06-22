@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>Settings Migrate</name>
+  <author>Envesko</author>
+  <website>https://github.com/envesko/userspice-settings-migrate</website>
+  <version>1.0.0</version>
+  <release>June 21, 2026</release>
+  <tested>6.1.0</tested>
+  <fa_icon>fa fa-right-left</fa_icon>
+  <description>Export a UserSpice site's configuration - settings, permissions, page guards, and plugin enable-states - to a single JSON bundle, then import it on another install. Secrets (API keys, SMTP passwords, tokens) are redacted by default. Import runs a dry-run diff first so you see exactly what will change before applying. Other plugins can contribute their own portable config by shipping a migrate_export.php file. Built to make moving a site between dev, staging, and production painless.</description>
+  <button>Settings Migrate</button>
+</plugin>
